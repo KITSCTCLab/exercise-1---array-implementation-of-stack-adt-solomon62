@@ -5,14 +5,20 @@ class Stack:
         self.size = size
 
     def is_empty(self):
-        # Write code here
+        { return(top==max-1)
+        }
 
     def is_full(self):
-        # Write code here
+        { return(top==-1)
+        }
 
     def push(self, data):
         if not self.is_full():
-            # Write code here
+           print("Stack is Full")
+        else:
+            s.top += 1
+            data = int(input("Enter data to be pushed: "))
+            s.st[s.top] = data
 
     def pop(self):
         if not self.is_empty():
